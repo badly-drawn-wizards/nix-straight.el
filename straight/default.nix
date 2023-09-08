@@ -3,6 +3,7 @@
 trivialBuild rec {
   pname = "straight.el";
   ename = pname;
+  version = "1";
   patches = [ ./nogit.patch ];
   src = fetchFromGitHub {
     owner = "raxod502";
